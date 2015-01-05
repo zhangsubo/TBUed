@@ -1,0 +1,11 @@
+/*
+Theme Name: TBUed
+Theme URI: http://TBUed.zhangsubo.cn
+Author: Sylvain Zhang
+Author URI: http://www.zhangsubo.cn
+Description: 仿照淘宝UED团队的博客为自己制作的一个wordpress模板，仅供我自己使用。在此感谢淘宝UED团队。
+Version: 1.2
+License: MIT
+License URI: https://github.com/zhangsubo/TBUed/blob/master/LICENSE
+*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,th,td{margin:0;padding:0}body,button,input,select,textarea{font:12px/1.5 "Helvetica Neue",Helvetica,Tahoma,Arial,sans-serif}h1{font-size:18px}h2{font-size:16px}h3{font-size:14px}h4,h5,h6{font-size:100%}address,cite,dfn,em,var{font-style:normal}code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}small{font-size:12px}ul,ol{list-style:none}a{text-decoration:none}a:hover{text-decoration:underline}abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help}q:before,q:after{content:''}legend{color:#000}fieldset,img{border:0}button,input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}hr{height:1px;border:0}html{overflow-y:scroll}.useless{background-image:url(././images/i-sdcabe518d0.png);background-repeat:no-repeat}.sprites,.page-nav .pre-page a,.page-nav .next-page a{display:inline-block;background-image:url(././images/i-sdcabe518d0.png);background-repeat:no-repeat}.ued-single .post{position:relative;padding:20px 25px 75px;background:#fff}.ued-single .post-hd{position:relative}.ued-single .post-author{position:absolute;overflow:hidden;width:50px;height:50px}.ued-single .post-info{padding-left:65px;min-height:50px}.ued-single .post-title{font-weight:700;font-size:17px;font-family:"Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft Yahei";line-height:23px}.post-extra{height:18px;color:#999;font-size:11px;font-family:Tahoma;line-height:18px}.ued-single .post-extra{margin-top:6px;color:#aaa;font-size:12px;font-family:inherit}.ued-single .h-dotted-line{margin:12px 0 32px}.ued-single .post-bd{overflow:hidden;max-width:715px;min-height:600px}.ued-single .post-op a,.ued-single .post-op .v-italic-line{float:left;padding-left:15px;height:12px;color:#333;line-height:12px}
