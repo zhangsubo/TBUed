@@ -49,7 +49,7 @@
          <?php }; 
 		 }else{
 		?>	 
-    <div id="J_Login" class="login"><a href="<?php echo site_url('/wp-login.php'); ?>" class="login-entry J_LoginEntry">登录</a> </div>
+    <div id="J_Login" class="login" style="width: 48px;"><a href="<?php echo site_url('/wp-login.php'); ?>" class="login-entry J_LoginEntry">登录</a> </div>
     
 	<?php }; ?>
 				<!-- END #login -->
