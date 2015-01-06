@@ -43,11 +43,10 @@
 			<div class="col-right">
 						<!-- #login -->
 			 <?php if(is_user_logged_in()){
-		 echo '<div id="J_Login" class="login">	<a href="javascript:void(0);" class="login-entry J_LoginEntry" style="width: 75px;> 已登录</a></div>';
-		 if ( $user_ID ){ ?>
-         <div id="J_Login" class="login"><a href="<?php echo wp_logout_url(home_url()); ?>" title="登出" class="login-entry J_LoginEntry">登出</a></div>
-         <?php }; 
-		 }else{
+		  echo '<div id="J_Login" class="login">	<a href="<?php echo wp_logout_url(home_url()); ?>" class="login-entry J_LoginEntry"> 登出</a></div>';
+		
+        
+        }else{
 		?>	 
     <div id="J_Login" class="login" style="width: 48px;"><a href="<?php echo site_url('/wp-login.php'); ?>" class="login-entry J_LoginEntry">登录</a> </div>
     
