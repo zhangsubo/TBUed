@@ -42,9 +42,16 @@
 			<!-- .col-right -->
 			<div class="col-right">
 						<!-- #login -->
-				<div id="J_Login" class="login">				
-					<a href="<?php bloginfo('url'); ?>/wp-login.php" class="login-entry J_LoginEntry" title="登录到<?php bloginfo('name'); ?>">登录</a>					
-				</div>
+			 <?php if(is_user_logged_in()){
+		 echo '<div id="J_Login" class="login">	<a href="javascript:void(0);" class="login-entry J_LoginEntry" style="width: 75px;> 已登录</a></div>';
+		 if ( $user_ID ){ ?>
+         <div id="J_Login" class="login"><a href="<?php echo wp_logout_url(home_url()); ?>" title="登出" class="login-entry J_LoginEntry">登出</a></div>
+         <?php }; 
+		 }else{
+		?>	 
+    <div id="J_Login" class="login"><a href="<?php echo site_url('/wp-login.php'); ?>" class="login-entry J_LoginEntry">登录</a> </div>
+    
+	<?php }; ?>
 				<!-- END #login -->
                 
     <!-- 整理完成 -->
